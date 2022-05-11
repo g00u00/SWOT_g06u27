@@ -1,0 +1,6 @@
+{"element": "threats", "name": "Затруднения клиентов  оплачивать услугу", "actions": "Минимизация стоимости и возможность отсрочки платежа", "importance": "2", "power": 0.8, "probability": "0.4"}
+{"element": "threats", "name": "Угроза вхождения на рынок новых участников ", "actions": "Угроза обусловлена невысокими ресурсами для входа", "importance": "8", "power": 5.6, "probability": "0.7"}
+{"element": "threats", "name": "Угроза появления субститутов (заменителей )", "actions": " угрозы нет", "importance": "1", "power": 0.99, "probability": "0.99"}
+{"element": "threats", "name": "рыночная власть покупателей", "actions": "Услуга уникальна, сегмент ограничен", "importance": "9", "power": 6.3, "probability": "0.7"}
+{"element": "threats", "name": "Рыночная власть поставщиков", "actions": "Угрозы со стороны поставщиков услуг и товаров нетнет", "importance": "9", "power": 0.9, "probability": "0.1"}
+{"element": "threats", "name": "Соперничество между действующими конкурентами ", "actions": "Нейтрализуем качеством, доступностью и рекламой", "importance": "8", "power": 5.6, "probability": "0.7"}

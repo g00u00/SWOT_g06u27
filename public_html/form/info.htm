@@ -1,0 +1,15 @@
+<pre>
+    <form  action="form_processing.py"   target='_self' method='get'>
+    Введите данные
+    Ресурс: <input type="Text" name="qs_name" value=""   size=20 >
+    Цена: <input type="Text"  name="qs_price" value="0.00"    size=8 >   0 - сброс
+    Количество: <input type="Text"  name="qs_amount" value="0"    size=6 >
+    Отнесен к:<select name="qs_type">
+        <OPTION value="Доходы">Доходы</OPTION> 
+        <OPTION value="Расходы">Расходы</OPTION> 
+        </select>
+    <input type="hidden" name="file_name" value="qs_file.txt" >
+    <input type="reset"  name="reset" value="Обновить">
+    <input type="submit" name="submit" value="Отправить">
+    </form>
+</pre>

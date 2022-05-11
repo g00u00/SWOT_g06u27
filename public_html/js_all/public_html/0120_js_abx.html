@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>js_abc_form</title>
+    <script src="../js/0120_js_abx.js"></script>
+</head>
+<body>
+	<form name="UserEnter" id="UserEnter" action="http://bim.nn2000.info/cgi-bin/f_submission.pl">
+        <ul>
+		<li>a: <input type="text" name="a" size="4">
+		<li>b: <input type="text" name="b" size="4">
+		<li>x: <input type="text" name="x" size="4" >
+        <input type="hidden" name="file_name" value="file.txt" >
+        <input type="hidden" name="control" value="0" >
+		<li><input type="button" onclick="CheckFields(this.form);" value="(a<x<b)=>file">
+        </ul>
+    </form>
+	<p id="result"></p>
+</body>
+</html>

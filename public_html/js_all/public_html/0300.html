@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+<p id="my_p">JS</p>
+
+<!--
+<script>alert("Оповещение из тела страницы")</script>
+<script>console.log("Вывод в консоль из тела страницы")</script>
+-->
+
+<!--
+<script src="../js/0310_main.js"></script>
+-->
+
+<!--
+<script src="../js/0315_file.js"></script>
+-->
+<!--
+<script src="../js/0320_function.js"></script>
+<form id="myForm"  action="http://bim.nn2000.info">
+<input type="text" id="my_text" onchange="doAnalizeMy(this.value)" >
+<input type="text" onchange= "doAnalizeNew(this.value)">
+<input type="buttom"  class="myBotton" onclick="doCalculate()" value="Посчитать">
+<input type="buttom"  class="myBotton" onclick="doSubmit()" value="Отправить">
+</form>
+<script>
+var myNode = document.getElementsByClassName("myBotton")
+myNode[0].style.backgroundColor = "green"
+myNode[1].style.backgroundColor = "red"
+</script>
+-->
+
+
+<!--
+<script>
+    document.addEventListener('mousemove', function(e){
+    var object = document.getElementById("my_p")
+    var string0 = object.innerHTML
+    var string1 = "Двигаем мышкой "
+    var string2 = "X: " + e.offsetX + "Y: " + e.offsetY
+    object.innerHTML=(string1 + "<br>" + string2)
+    console.log(string2);
+    });
+</script>
+-->
+
+</body>
+
+</html>
